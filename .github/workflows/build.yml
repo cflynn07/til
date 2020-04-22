@@ -1,0 +1,18 @@
+name: Build README and deploy Datasette
+on:
+  push:
+    branches:
+    - master
+    paths-ignore:
+    - README.md
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out repo
+      uses: actions/checkout@v2
+      # We need full history to introspect created/updated:
+      with:
+        fetch-depth: 0  
+    - name: Autoformat README
+      uses: cflynn07/github-actions/til-autoformat-readme
