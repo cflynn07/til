@@ -15,4 +15,8 @@ jobs:
       with:
         fetch-depth: 0  
     - name: Autoformat README
-      uses: cflynn07/github-actions/til-autoformat-readme@master
+      uses: cflynn07/github-action-til-autoformat-readme@master
+      with:
+        description: |
+          This is a little test description. Gonna make it two lines.
+          Lets see how this goes?
