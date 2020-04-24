@@ -13,7 +13,7 @@ jobs:
       uses: actions/checkout@v2
       # We need full history to introspect created/updated:
       with:
-        fetch-depth: 0  
+        fetch-depth: 0
     - name: Autoformat README
       uses: cflynn07/github-action-til-autoformat-readme@master
       with:
@@ -22,6 +22,14 @@ jobs:
           and researching. My goal is to work in public. I was inspired to start this
           repository after reading Simon Wilson's [hacker new post][1], and he was
           apparently inspired by Josh Branchaud's [TIL collection][2].
+          Quick test change
         markdown_links_footer: |
           [1]: https://simonwillison.net/2020/Apr/20/self-rewriting-readme/
           [2]: https://github.com/jbranchaud/til
+    - name: Commit and push if README changed
+      run: |-
+        git diff
+        git config --global user.email "readme-bot@example.com"
+        git config --global user.name "README-bot"
+        git diff --quiet || (git add README.md && git commit -m "Updated README")
+        git push
