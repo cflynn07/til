@@ -14,7 +14,7 @@ _1 TILs and counting..._
 
 ---
 
-### Catagories
+### Categories
 
 - [docker](#docker)
 
