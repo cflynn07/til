@@ -7,7 +7,7 @@ repository after reading Simon Wilson's [Hacker News post][1], and he was
 apparently inspired by Josh Branchaud's [TIL collection][2].
 
 I made a reusable Github Action [til-auto-format-readme][3] that automatically
-generates this README when I commit with new TILs.
+scans this repository's TIL *.md files generates this README.
 
 
 _1 TILs and counting..._
