@@ -17,18 +17,18 @@ _2 TILs and counting..._
 ### 2 most recent TILs
 
 - [Monitoring Docker for Mac Disk Usage](docker/monitoring-docker-for-mac-disk-use.md) - Sat Apr 25 14:19:33 2020 +0800
-- [Debugging A Golang GraphQL Service Running in a Local K8s Cluster with Delve](delve/debugging-go-graphql-service-in-local-k8s-cluster-with-delve.md) - Fri May 1 19:48:07 2020 +0800
+- [Debugging A Golang GraphQL Service Running in a Local K8s Cluster with Delve](go/debugging-go-graphql-service-in-local-k8s-cluster-with-delve.md) - Fri May 1 19:50:28 2020 +0800
 
 ### Categories
 
-- [delve](#delve)
 - [docker](#docker)
-
-### [delve](#delve)
-- [Debugging A Golang GraphQL Service Running in a Local K8s Cluster with Delve](delve/debugging-go-graphql-service-in-local-k8s-cluster-with-delve.md)
+- [go](#go)
 
 ### [docker](#docker)
 - [Monitoring Docker for Mac Disk Usage](docker/monitoring-docker-for-mac-disk-use.md)
+
+### [go](#go)
+- [Debugging A Golang GraphQL Service Running in a Local K8s Cluster with Delve](go/debugging-go-graphql-service-in-local-k8s-cluster-with-delve.md)
 
 [1]: https://simonwillison.net/2020/Apr/20/self-rewriting-readme/
 [2]: https://github.com/jbranchaud/til
